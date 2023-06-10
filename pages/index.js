@@ -3,47 +3,47 @@ import styles from '../styles/Home.module.css';
 
 const projects = [
   {
-      link: 'google.com',
+      link: 'birdring',
       title: 'Bird Ring',
       descr: 'bird ring blah blah blah blah'
   },
   {
-      link: 'google.com',
+      link: 'toxicinstruments',
       title: 'Honors Thesis',
       descr: 'bird ring blah blah blah blah'
   },
   {
-    link: 'google.com',
+    link: 'correst',
     title: 'Video Game',
     descr: 'bird ring blah blah blah blah'
   },
   {
-      link: 'google.com',
+      link: 'ctrl0',
       title: 'Ctrl 0',
       descr: 'bird ring blah blah blah blah'
   },
   {
-    link: 'google.com',
+    link: 'extractive',
     title: 'Extractive Summ',
     descr: 'bird ring blah blah blah blah'
   },
   {
-    link: 'google.com',
+    link: 'circuits',
     title: 'Neuro Circuits',
     descr: 'bird ring blah blah blah blah'
   },
   {
-    link: 'google.com',
+    link: 'confluence',
     title: 'Stravinsky Stein',
     descr: 'bird ring blah blah blah blah'
   },
   {
-      link: 'google.com',
+      link: 'hjs',
       title: 'HJS Contest',
       descr: 'bird ring blah blah blah blah'
   },
   {
-    link: 'google.com',
+    link: 'tugofwords',
     title: 'Tug of Words',
     descr: 'bird ring blah blah blah blah'
   },
@@ -53,20 +53,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Emma Waddell</title>
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Ori Raskin
+          Emma Waddell
         </h1>
 
         <div className={styles.grid}>
-          <a href={'google.com'} className={styles.nav} key={'Projects'}>
+          <a href={''} className={styles.nav} key={'Projects'}>
             <p>Projects</p>
           </a>
-          <a href={'google.com'} className={styles.nav} key={'Projects'}>
+          <a href={'about'} className={styles.nav} key={'Projects'}>
             <p>About</p>
           </a>
         </div>
@@ -74,60 +73,13 @@ export default function Home() {
         <div className={styles.grid}>
           {projects.map((p) => (
             <a href={p.link} className={styles.card} key={p.title}>
-              <h3>{p.title} &rarr;</h3>
+              <img className={styles.pic} src="/bird.jpg"></img>
+              <h3>{p.title}</h3>
               <p>{p.descr}</p>
             </a>
           ))}
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
 
       <style jsx global>{`
         html,
@@ -140,6 +92,14 @@ export default function Home() {
         }
         * {
           box-sizing: border-box;
+        }
+        main {
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
       `}</style>
     </div>
