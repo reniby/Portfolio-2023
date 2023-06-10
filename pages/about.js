@@ -24,8 +24,10 @@ export default function About() {
 
         <div className={styles.about}>
             <a className={styles.aboutCard} key={'Bio'}>
-                <h2>{'About Me'} &rarr;</h2>
-                <p>{'talk about me... talk about me... talk about me... talk about me... talk about me... talk about me... talk about me... talk about me...'}</p>
+                <h2>{'About Me'}</h2>
+                <p>{`Emma Waddell is a computer scientist and musician studying at NYU Gallatin. Their concentration is focused on how natural and biological processes influence algorithmic and computer music. This includes simulations and the use of neural networks, as well as the study of communication from a musical/visual and linguistic standpoint.
+They have received multiple research grants to study these ideas, and create new music using their computer and their saxophone. Additionally they have studied extensive music theory through jazz saxophone and classical piano. They are also interested in video game development and woodworking!
+Look through this portfolio to read about their research and listen to some notable live performances.`}</p>
                 <img className={styles.socs}
                     src="/document.png"
                 />
@@ -41,34 +43,16 @@ export default function About() {
             </a>
             <a className={styles.aboutCard} key={'Pic'}>
                 <img className={styles.profile}
-                    src="/bird.jpg"
+                    src="/profile.jpg"
                     alt="Picture of the author"
                 />
             </a>
         </div>
       </main>
 
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-      `}</style>
+      <footer>
+        <p>Copyright © Emma Waddell 2023</p>
+      </footer>
     </div>
   )
 }

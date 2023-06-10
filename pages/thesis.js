@@ -23,15 +23,15 @@ export default function BirdRing() {
         </div>
 
         <div className={styles.gallGrid}>
-          <a class={styles.lGrayed}></a>
+          <a class={styles.lArrow} href={'birdring'}></a>
           <p className={styles.gallery}>{"Gallery"}</p>
-          <a class={styles.rArrow} href={'thesis'}></a>
+          <a class={styles.rArrow} href={'correst'}></a>
         </div>
         
         
         
         <div className={styles.project}>
-            <h1>Bird Ring</h1>
+            <h1>Thesis</h1>
             <h3>Section 1</h3>
             <p>asofij aspodfijasodifap s</p>
             <img className={styles.pic} src="/bird.jpg"></img>
