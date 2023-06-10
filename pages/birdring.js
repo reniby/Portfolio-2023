@@ -3,45 +3,73 @@ import styles from '../styles/Home.module.css';
 
 export default function BirdRing() {
   return (
-    <div className="container">
-      <div className="content">
-        <div className="header">
-          <Link href="/">
-            <a className="close-btn">X</a>
-          </Link>
+    <div className={styles.container}>
+      <Head>
+        <title>Emma Waddell</title>
+      </Head>
+
+      <main>
+        <h1 className={styles.title}>
+          Emma Waddell
+        </h1>
+
+        <div className={styles.grid}>
+          <a href={'/'} className={styles.nav} key={'Projects'}>
+            <p>Projects</p>
+          </a>
+          <a href={'about'} className={styles.nav} key={'Projects'}>
+            <p>About</p>
+          </a>
         </div>
-        <h1>Title</h1>
-        <p>This is the first paragraph.</p>
-        <p>This is the second paragraph.</p>
-        <a href="https://example.com">Link to Example</a>
-        <img src="/path/to/image.jpg" alt="Image Description" />
-      </div>
-      <style jsx>{`
-        .container {
+
+        <div className={styles.gallGrid}>
+          <div class={styles.lArrow}></div>
+          <p className={styles.gallery}>{"Gallery"}</p>
+          <div class={styles.rArrow}></div>
+        </div>
+        
+        
+        
+        <div className={styles.project}>
+            <h1>Bird Ring</h1>
+            <h3>Section 1</h3>
+            <p>asofij aspodfijasodifap s</p>
+            <img className={styles.pic} src="/bird.jpg"></img>
+
+            <h3>Section 2</h3>
+            <p>asofij aspodfijasodifap s</p>
+            <img className={styles.pic} src="/bird.jpg"></img>
+
+            <h3>List</h3>
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+        </div>
+      </main>
+
+      <style jsx global>{`
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        main {
+          padding: 5rem 0;
+          flex: 1;
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
-          height: 100vh;
-        }
-
-        .content {
-          background-color: white;
-          border: 1px solid gray;
-          padding: 20px;
-        }
-
-        .header {
-          display: flex;
-          justify-content: flex-end;
-        }
-
-        .close-btn {
-          text-decoration: none;
-          color: gray;
-          font-weight: bold;
-          cursor: pointer;
         }
       `}</style>
     </div>
-  );
-};
+  )
+}

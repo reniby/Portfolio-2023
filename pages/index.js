@@ -62,7 +62,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href={''} className={styles.nav} key={'Projects'}>
+          <a href={'/'} className={styles.nav} key={'Projects'}>
             <p>Projects</p>
           </a>
           <a href={'about'} className={styles.nav} key={'Projects'}>
