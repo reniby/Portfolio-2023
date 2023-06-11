@@ -9,17 +9,18 @@ export default function BirdRing() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Emma Waddell
-        </h1>
-
-        <div className={styles.grid}>
-          <a href={'/'} className={styles.nav} key={'Projects'}>
-            <p>Projects</p>
-          </a>
-          <a href={'about'} className={styles.nav} key={'Projects'}>
-            <p>About</p>
-          </a>
+        <div className={styles.gContainer}>
+            <div className={styles.title}>
+                <b>Emma Waddell</b>
+            </div>
+            <div className={styles.navGrid}>
+                <a href={'/'} className={styles.nav} key={'Projects'}>
+                    <p>Projects</p>
+                </a>
+                <a href={'about'} className={styles.nav} key={'About'}>
+                    <p>About</p>
+                </a>
+            </div>
         </div>
 
         <div className={styles.gallGrid}>
@@ -27,8 +28,6 @@ export default function BirdRing() {
           <p className={styles.gallery}>{"Gallery"}</p>
           <a class={styles.rArrow} href={'thesis'}></a>
         </div>
-        
-        
         
         <div className={styles.project}>
             <h1>Bird Ring</h1>
@@ -46,6 +45,12 @@ export default function BirdRing() {
               <li>Tea</li>
               <li>Milk</li>
             </ul>
+        </div>
+
+        <div className={styles.gallGrid}>
+          <a class={styles.lGrayed}></a>
+          <p className={styles.gallery}>{"Gallery"}</p>
+          <a class={styles.rArrow} href={'thesis'}></a>
         </div>
       </main>
 

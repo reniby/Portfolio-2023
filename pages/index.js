@@ -57,17 +57,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Emma Waddell
-        </h1>
-
-        <div className={styles.grid}>
-          <a href={'/'} className={styles.nav} key={'Projects'}>
-            <p>Projects</p>
-          </a>
-          <a href={'about'} className={styles.nav} key={'Projects'}>
-            <p>About</p>
-          </a>
+        <div className={styles.hContainer}>
+            <div className={styles.title}>
+                <b>Emma Waddell</b>
+            </div>
+            <div className={styles.navGrid}>
+                <a href={'/'} className={styles.nav} key={'Projects'}>
+                    <p>Projects</p>
+                </a>
+                <a href={'about'} className={styles.nav} key={'About'}>
+                    <p>About</p>
+                </a>
+            </div>
         </div>
 
         <div className={styles.grid}>
