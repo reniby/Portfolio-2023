@@ -24,9 +24,9 @@ export default function BirdRing() {
         </div>
 
         <div className={styles.gallGrid}>
-          <a class={styles.lGrayed}></a>
+          <a class={styles.lArrow} href={'correst'}></a>
           <p className={styles.gallery}>{"Gallery"}</p>
-          <a class={styles.rArrow} href={'thesis'}></a>
+          <a class={styles.rArrow} href={'ctrl0'}></a>
         </div>
         
         <div className={styles.project}>

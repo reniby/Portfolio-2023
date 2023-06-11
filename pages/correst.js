@@ -26,7 +26,7 @@ export default function Correst() {
         <div className={styles.gallGrid}>
           <a class={styles.lArrow} href={'thesis'}></a>
           <p className={styles.gallery}>{"Gallery"}</p>
-          <a class={styles.rGrayed}></a>
+          <a class={styles.rArrow} href={'birdring'}></a>
         </div>
         
         <div className={styles.project}>

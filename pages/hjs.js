@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Thesis() {
+export default function HJS() {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,9 +24,9 @@ export default function Thesis() {
         </div>
 
         <div className={styles.gallGrid}>
-          <a class={styles.lGrayed}></a>
+          <a class={styles.lArrow} href={'writing'}></a>
           <p className={styles.gallery}>{"Gallery"}</p>
-          <a class={styles.rArrow} href={'correst'}></a>
+          <a class={styles.rArrow} href={'tugofwords'}></a>
         </div>
         
         <div className={styles.project}>
