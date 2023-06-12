@@ -1,17 +1,18 @@
-import Head from 'next/head';
+import Layout from '../components/layout'
 import styles from '../styles/Home.module.css';
 
+const highlight = ['SuperCollider', 'Unity', 'Pure Data', 'p5js', 'Processing Java', 'Python', 'NLTK', 'MATLAB'];
 const projects = [
   {
       link: 'thesis',
       title: 'Honors Thesis',
-      descr: 'Built a Q-Learning system in SuperCollider that can generate beats of varying intensities while following an acoustic performer. ',
+      descr: 'Built a Q-Learning system in SuperCollider that can generate beats of varying intensities while following an acoustic performer.',
       src: 'sc.png'
   },
   {
     link: 'correst',
     title: 'Correst',
-    descr: 'Created a procedurally generated platformer in Unity. User choices are fed into a neural network in Pure Data which generates a live soundtrack.',
+    descr: 'Created a procedurally generated platformer in Unity. User choices are fed into a neural network in Pure Data which generates a live soundtrack.',
     src: 'cn.jpeg'
   },
   {
@@ -23,7 +24,7 @@ const projects = [
   {
       link: 'ctrl0',
       title: 'Ctrl 0',
-      descr: 'This piece was performed at ShapeShifter Lab in Brooklyn in 2019. Emma wrote a Processing (Java) program using the concepts of conduction created by Butch Morris.',
+      descr: 'Wrote a Processing (Java) program using the concepts of conduction created by Butch Morris. This piece was performed at ShapeShifter Lab in Brooklyn in 2019.',
       src: 'c0.png'
   },
   {
@@ -41,59 +42,46 @@ const projects = [
   {
     link: 'writing',
     title: 'Stravinsky Stein',
-    descr: 'An essay comparing the compositional styles and choices in Gertrude Stein’s Tender Button and Igor Stravinsky’s The Rite of Spring. Published in Confluence Spring 2022.',
+    descr: 'Published an essay comparing the compositional styles and choices in Gertrude Stein’s Tender Button and Igor Stravinsky’s The Rite of Spring. Published in Confluence Spring 2022.',
     src: 'ec.jpeg'
   },
   {
       link: 'hjs',
       title: 'HJS Contest',
-      descr: 'Emma was selected as a finalist for this jazz competition for their tenor sax improvisation, and received the honor of performing in Bushnell Park in Hartford.',
+      descr: 'Selected as a finalist for this jazz competition for their tenor sax improvisation, and received the honor of performing in Bushnell Park in Hartford.',
       src: 'hjs.jpeg'
   },
   {
     link: 'tugofwords',
     title: 'Tug of Words',
-    descr: 'bird ring blah blah blah blah',
+    descr: 'Adapted the Tug of Words game show into a web game built in p5.js. Built two modes, endless and versus, where users are given a word clues and must guess the correct letter change.',
     src: 'tow.png'
   },
-]
+];
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Emma Waddell</title>
-      </Head>
-
-      <main>
-        <div className={styles.hContainer}>
-            <div className={styles.title}>
-                <b>Emma Waddell</b>
-            </div>
-            <div className={styles.navGrid}>
-                <a href={'/'} className={styles.nav} key={'Projects'}>
-                    <p>Projects</p>
-                </a>
-                <a href={'about'} className={styles.nav} key={'About'}>
-                    <p>About</p>
-                </a>
-            </div>
-        </div>
-
-        <div className={styles.grid}>
-          {projects.map((p) => (
-            <a href={p.link} className={styles.card} key={p.title}>
-              <img className={styles.pic} src={p.src}></img>
-              <h3>{p.title}</h3>
-              <p>{p.descr}</p>
-            </a>
-          ))}
-        </div>
-      </main>
-
-      <footer>
-        <p>Copyright © Emma Waddell 2023</p>
-      </footer>
-    </div>
+    <Layout>
+      <div className={styles.grid}>
+      {projects.map((p) => (
+          <a href={'research/'+p.link} className={styles.card} key={p.title}>
+          <img className={styles.pic} src={p.src} alt={p.title} />
+          <h3>{p.title}</h3>
+          <p>
+            {p.descr.split(" ").map((word, index) => {
+              return (
+                <span
+                  key={index}
+                  className={highlight.includes(word.replace(/[^\w\s]/g, "")) ? styles.highlight : ""}
+                >
+                  {word}{" "}
+                </span>
+              );
+            })}
+          </p>
+        </a>
+        ))}
+      </div>
+    </Layout>
   )
 }

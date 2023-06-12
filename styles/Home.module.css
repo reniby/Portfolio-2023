@@ -8,22 +8,12 @@
   background: rgb(220, 220, 220);
 }
 
-.hContainer {
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 55%;
+  width: 500px;
   background:  white;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.gContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 126%;
-  background: white;
   border-radius: 5px;
   border: 1px solid black;
 }
@@ -63,6 +53,20 @@
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
   margin-bottom: 12%;
+  font-size: 14px;
+}
+
+.navActive {
+  color: white;
+  background: #bd1667;
+  border-color: #bd1667;
+  margin: 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  border: 1px solid #bd1667;
+  border-radius: 5px;
+  margin-bottom: 12%;
+  font-size: 14px;
 }
 
 .title,
@@ -80,7 +84,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   width: 80%;
   max-width: 900px;
   margin-bottom: 3rem;
@@ -101,16 +104,18 @@
 }
 
 .project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 800px;
   background: white;
   margin: 1rem;
   padding: 1.5rem;
-  width: 190%;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid black;
   border-radius: 5px;
-  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .about {
@@ -142,10 +147,20 @@
 }
 
 .pic {
-  width: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
-  max-height: 200px;
-  min-height: 200px;
+  max-height: 220px;
+}
+
+.pagePic {
+  border-radius: 5px;
+  max-width: 220px;
+}
+
+.highlight {
+  color: #bd1667;
 }
 
 .socs {
@@ -160,9 +175,7 @@
   border-color: #bd1667;
 }
 
-.nav:hover,
-.nav:focus,
-.nav:active {
+.nav:hover {
   color: white;
   background: #bd1667;
   border-color: #bd1667;
@@ -213,6 +226,8 @@
   border-width: 0px 1px 1px 0px;
   transform: rotate(135deg);
   transition: border-width 150ms ease-in-out;
+  pointer-events: none;
+  cursor: default;
 }
 
 .rArrow {
@@ -235,6 +250,8 @@
   border-width: 0px 1px 1px 0px;
   transform: rotate(-45deg);
   transition: border-width 150ms ease-in-out;
+  pointer-events: none;
+  cursor: default;
 }
 
 .lArrow:hover {
@@ -252,6 +269,12 @@
   padding: 0 10% 0 10%;
 }
 
+@media (max-width: 750px) {
+  .project {
+    width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -259,17 +282,20 @@
   }
 }
 
-@media (max-width: 780px) {
-  .project {
-    width: 100%;
+@media (max-width: 450px) {
+  .nav {
+    font-size: 10px;
+    margin: 0.5rem;
   }
-}
-
-@media (max-width: 560px) {
-  .hContainer {
-    width: 90%;
+  .navActive {
+    font-size: 10px;
+    margin: 0.5rem;
   }
-  .gContainer {
-    width: 90%;
+  .title {
+    font-size: 40px;
+    color: red;
+  }
+  .pic {
+    width: 200px;
   }
 }
