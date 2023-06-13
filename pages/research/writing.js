@@ -5,16 +5,18 @@ export default function Writing() {
   return (
     <PageLayout count={7} prev={'circuits'} next={'hjs'}>
       <div className={styles.project}>
-        <h1>Bird Ring</h1>
-        <h3>Section 1</h3>
+        <h1>Experimental Composition</h1>
+        <h4>Mathematical Modeling in Medicine and Biology</h4>
+
+        <h2>Stravinsky and Stein</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>Section 2</h3>
+        <h2>Confluence</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>List</h3>
+        <h2>Technologies Used</h2>
         <ul>
           <li>Coffee</li>
           <li>Tea</li>

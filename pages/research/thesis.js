@@ -5,16 +5,22 @@ export default function Thesis() {
   return (
     <PageLayout count={1} prev={''} next={'correst'}>
       <div className={styles.project}>
-        <h1>Bird Ring</h1>
-        <h3>Section 1</h3>
+        <h1>Undergraduate Thesis (Honors)</h1>
+        <h4>Senior project blah blah</h4>
+
+        <h2>Senior Project</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>Section 2</h3>
+        <h2>NERD Sumit</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>List</h3>
+        <h2>Harvestworks Performance</h2>
+        <p>asofij aspodfijasodifap s</p>
+        <img className={styles.pagePic} src="/bird.jpg"></img>
+
+        <h2>Technologies Used</h2>
         <ul>
           <li>Coffee</li>
           <li>Tea</li>

@@ -6,15 +6,21 @@ export default function BirdRing() {
     <PageLayout count={3} prev={'correst'} next={'ctrl0'}>
       <div className={styles.project}>
         <h1>Bird Ring</h1>
-        <h3>Section 1</h3>
+        <h4>Interdisciplinary Research Project</h4>
+
+        <h2>Gallatin Undergraduate Research Fund</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>Section 2</h3>
+        <h2>PHREATIC! Exhibition on Governors Island</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h3>List</h3>
+        <h2>Audobahn House on Governors Island</h2>
+        <p>asofij aspodfijasodifap s</p>
+        <img className={styles.pagePic} src="/bird.jpg"></img>
+
+        <h2>Technologies Used</h2>
         <ul>
           <li>Coffee</li>
           <li>Tea</li>

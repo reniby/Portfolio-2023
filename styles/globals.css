@@ -20,11 +20,6 @@ img {
   height: auto;
 }
 
-ul {
-  padding: 0;
-  list-style: none;
-}
-
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
@@ -48,6 +43,14 @@ footer {
   background: #dcdcdc;
 }
 
-h3 {
-  padding-top: 2%;
+h2 {
+  padding-top: 8%;
+  margin: 0;
+}
+
+h4 {
+  color: gray;
+  font-size: 25px;
+  font-weight: 250;
+  margin: 0;
 }
