@@ -315,6 +315,11 @@
     font-size: 13px;
     padding: 0 0.8rem;
   }
+  .navGallery {
+    margin: 0.3rem;
+    font-size: 13px;
+    padding: 0 0.8rem;
+  }
   .navContainer {
     width: 320px;
   }
