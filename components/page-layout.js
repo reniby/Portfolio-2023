@@ -12,16 +12,10 @@ export default function PageLayout({ children, count, prev, next, section }) {
   }
   return (
     <div className={styles.container}>
-        <Head>
-            <title>Emma Waddell</title>
-        </Head>
-
         <main>
-          <div className={styles.mainContainer}>
-            <Navbar prefix={'../'}/>
-          </div>
+          <Navbar prefix={'../'}/>
 
-          <div className={styles.gallGrid}>
+          <div className={styles.gallTop}>
             <a class={prev == '' ? styles.lGrayed : styles.lArrow} href={prev}></a>
             <p className={styles.gallery}>{copy}</p>
             <a class={next == '' ? styles.rGrayed : styles.rArrow} href={next}></a>
@@ -29,14 +23,12 @@ export default function PageLayout({ children, count, prev, next, section }) {
 
           {children}
 
-          <div className={styles.gallGrid}>
+          <div className={styles.gallBottom}>
             <a class={prev == '' ? styles.lGrayed : styles.lArrow} href={prev}></a>
             <p className={styles.gallery}>{copy}</p>
             <a class={next == '' ? styles.rGrayed : styles.rArrow} href={next}></a>
           </div>
         </main>
-
-        <Footer />
     </div>
   )
 }
