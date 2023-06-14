@@ -5,7 +5,7 @@ const highlight = ['SuperCollider', 'Unity', 'Pure Data', 'p5js', 'Processing�
 const projects = [
   {
       link: 'thesis',
-      title: 'Honors Thesis',
+      title: 'Honors Thesis (Undergraduate)',
       descr: 'Built a Q-Learning system in SuperCollider that can generate beats of varying intensities while following an acoustic performer.',
       src: 'sc.png'
   },
@@ -29,25 +29,25 @@ const projects = [
   },
   {
     link: 'extractive',
-    title: 'Extractive Summ',
+    title: 'Extractive Summarization',
     descr: 'Built an extractive summarizer using Python and NLTK, evaluated on ROGUE-1 and ROUGE-L scores. Used the Critical Role Dungeons and Dragons Dataset (CRD3), colleced from 398,682 turns.',
     src: 'es.jpeg'
   },
   {
     link: 'circuits',
-    title: 'Neuro Circuits',
+    title: 'Neurological Circuit Building',
     descr: 'Used Hodgkin-Huxley mathematical model of a system on neurons and synapses in MATLAB. Simulated logical gates (AND, OR, NOT, XOR) using the modeled current through the neurons.',
     src: 'nc.jpeg'
   },
   {
     link: 'writing',
-    title: 'Stravinsky Stein',
-    descr: 'Published an essay comparing the compositional styles and choices in Gertrude Stein’s Tender Button and Igor Stravinsky’s The Rite of Spring. Published in Confluence Spring 2022.',
+    title: 'Stravinsky and Stein',
+    descr: 'Wrote an essay comparing the compositional styles and choices in Gertrude Stein’s Tender Button and Igor Stravinsky’s The Rite of Spring. Published in Confluence Spring 2022.',
     src: 'ec.jpeg'
   },
   {
       link: 'hjs',
-      title: 'HJS Contest',
+      title: 'HJS Emerging Artist Showcase',
       descr: 'Selected as a finalist for this jazz competition for their tenor sax improvisation, and received the honor of performing in Bushnell Park in Hartford.',
       src: 'hjs.jpeg'
   },
