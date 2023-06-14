@@ -6,13 +6,9 @@ export default function Circuits() {
     <PageLayout count={6} prev={'extractive'} next={'writing'}>
       <div className={styles.project}>
         <h1>Neurological Circuit Building</h1>
-        <h4>Mathematical Modeling in Medicine and Biology</h4>
+        <h4>Mathematical Modeling in Medicine and Biology Final Research Project</h4>
 
-        <h2>Modeling One Neuron</h2>
-        <p>asofij aspodfijasodifap s</p>
-        <img className={styles.pagePic} src="/bird.jpg"></img>
-
-        <h2>Adding Synapses</h2>
+        <h2>Modeling a Neural Network</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
@@ -22,9 +18,8 @@ export default function Circuits() {
 
         <h2>Technologies Used</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>MATLAB</li>
+          <li>Hodgkin Huxley Equations</li>
         </ul>
       </div>
     </PageLayout>   

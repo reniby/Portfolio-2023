@@ -5,7 +5,7 @@ const highlight = ['SuperCollider', 'Unity', 'Pureâ€ˆData', 'p5js', 'Processingâ
 const projects = [
   {
       link: 'thesis',
-      title: 'Honors Thesis (Undergraduate)',
+      title: 'SuperCollider as a Reactive Performer',
       descr: 'Built a Q-Learning system in SuperCollider that can generate beats of varying intensities while following an acoustic performer.',
       src: 'sc.png'
   },

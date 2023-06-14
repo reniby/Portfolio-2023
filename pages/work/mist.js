@@ -22,9 +22,8 @@ export default function MIST() {
 
         <h2>Technologies Used</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>p5.js</li>
+          <li>MIST</li>
         </ul>
       </div>
     </PageLayout>   

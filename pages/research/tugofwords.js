@@ -6,7 +6,7 @@ export default function TugOfWords() {
     <PageLayout count={9} prev={'hjs'} next={''}>
       <div className={styles.project}>
         <h1>Tug of Words</h1>
-        <h4>Video Game</h4>
+        <h4>Video Game Built for Fun 🕹️👾</h4>
 
         <h2>Design and Development</h2>
         <p>asofij aspodfijasodifap s</p>
@@ -18,9 +18,8 @@ export default function TugOfWords() {
 
         <h2>Technologies Used</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>p5.js</li>
+          <li>Python (for data cleaning)</li>
         </ul>
       </div>
     </PageLayout>   

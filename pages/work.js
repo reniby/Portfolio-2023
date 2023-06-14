@@ -12,13 +12,13 @@ const work = [
   {
     link: 'mist',
     title: 'MIST - Trinity College',
-    descr: 'Digitized the MIST diagnostic test to aid with administering remotely (p5.js). Collected user data to be used in the diagnostic process. Modified program to include a children\'s version and a Spanish version as well as a short form version.',
+    descr: 'Digitized the MIST (diagnostic memory test for people with neurological disorders), to aid with administering remotely. Collected user data to be used in the diagnostic process. Modified program to include a children\'s version and a Spanish version as well as a short form version.',
     src: 'trinity.jpeg'
   },
   {
     link: 'wnyu',
     title: 'WNYU Radio',
-    descr: 'Updated and maintained the WNYU website (Ruby on Rails), the stations physical technology, and the online live stream. Created tutorials for station members to host their shows remotely. Hosted a two hour long weekly radio show.',
+    descr: 'Updated and maintained the WNYU website (Ruby on Rails), the stations physical technology, and the online live stream. Created tutorials for station members to host their shows remotely. Hosted a two hour long weekly radio show called Imaginary Landscapes.',
     src: 'wnyu.jpeg'
   }
 ];

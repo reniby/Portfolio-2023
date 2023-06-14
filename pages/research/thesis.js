@@ -5,10 +5,10 @@ export default function Thesis() {
   return (
     <PageLayout count={1} prev={''} next={'correst'}>
       <div className={styles.project}>
-        <h1>Undergraduate Thesis (Honors)</h1>
-        <h4>Senior project blah blah</h4>
+        <h1>SuperCollider as a Reactive Performer</h1>
+        <h4>Senior Undergraudate Thesis, Received Honors</h4>
 
-        <h2>Senior Project</h2>
+        <h2>Project Description</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
@@ -22,9 +22,8 @@ export default function Thesis() {
 
         <h2>Technologies Used</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>SuperCollider</li>
+          <li>Q-Learning Reinforcement Learning Algorithm</li>
         </ul>
       </div>
     </PageLayout>   

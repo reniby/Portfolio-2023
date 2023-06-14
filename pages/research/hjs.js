@@ -6,9 +6,9 @@ export default function HJS() {
     <PageLayout count={8} prev={'writing'} next={'tugofwords'}>
       <div className={styles.project}>
         <h1>Hartford Jazz Society Emerging Artist Competition</h1>
-        <h4>Tenor Saxophone</h4>
+        <h4>and Performance at Bushnell Park</h4>
 
-        <h2>Community Voting</h2>
+        <h2>Competition Information</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
@@ -16,11 +16,10 @@ export default function HJS() {
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h2>Technologies Used</h2>
+        <h2>Instrumentation</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>Tenor Saxophone</li>
+          <li>Double Bass</li>
         </ul>
       </div>
     </PageLayout>   

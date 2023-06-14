@@ -6,21 +6,16 @@ export default function Writing() {
     <PageLayout count={7} prev={'circuits'} next={'hjs'}>
       <div className={styles.project}>
         <h1>Experimental Composition</h1>
-        <h4>Mathematical Modeling in Medicine and Biology</h4>
+        <h4>Published Essay in Confluence</h4>
 
-        <h2>Stravinsky and Stein</h2>
+        <h2>Essay Information</h2>
         <p>asofij aspodfijasodifap s</p>
         <img className={styles.pagePic} src="/bird.jpg"></img>
 
-        <h2>Confluence</h2>
-        <p>asofij aspodfijasodifap s</p>
-        <img className={styles.pagePic} src="/bird.jpg"></img>
-
-        <h2>Technologies Used</h2>
+        <h2>Artists Referenced</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>Igor Stravinsky</li>
+          <li>Gertrude Stein</li>
         </ul>
       </div>
     </PageLayout>   

@@ -15,10 +15,13 @@ export default function About() {
                 <img title="GitHub" className={styles.socs} src="/github.png"/>
             </a>
             <a href={"https://www.linkedin.com/in/emma-waddell-863aa1186/"} target="_blank" rel="noopener noreferrer">
-                <img title="LinkedIn" className={styles.socs} src="/linkedin.svg"/>
+                <img title="LinkedIn" className={styles.socs} src="/linkedin.png"/>
             </a>
             <a href={"https://www.youtube.com/channel/UCzhakXMptvcgeyvDMVI9ZVA"} target="_blank" rel="noopener noreferrer">
                 <img title="YouTube" className={styles.socs} src="/youtube.png"/>
+            </a>
+            <a href="mailto:emmarwaddell@gmail.com">
+                <img title="Email" className={styles.socs} src="/mail.png"/>
             </a>
         </div>
         <a className={styles.aboutCard} key={'Pic'}>

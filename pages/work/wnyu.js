@@ -22,9 +22,9 @@ export default function WNYU() {
 
         <h2>Technologies Used</h2>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>Ruby on Rails</li>
+          <li>Audacity</li>
+          <li>Cron</li>
         </ul>
       </div>
     </PageLayout>   
