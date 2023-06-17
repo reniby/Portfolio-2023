@@ -13,7 +13,7 @@ const projects = [
     link: 'correst',
     title: 'Correst',
     descr: 'Created a procedurally generated platformer in Unity. User choices are fed into a neural network in Pure Data which generates a live soundtrack.',
-    src: 'cn.jpeg'
+    src: 'cn.png'
   },
   {
     link: 'birdring',

@@ -1,19 +1,19 @@
 import Layout from '../components/layout'
 import styles from '../styles/Home.module.css';
 
-const highlight = ['Ruby on Rails', 'p5js', 'Typescript', 'Python', 'React', 'Ember', 'Nextjs'];
+const highlight = ['Ruby on Rails', 'p5js', 'Typescript', 'Python', 'React', 'Ember', 'Nextjs', 'Nestjs', 'TypeORM'];
 const work = [
   {
       link: 'better',
       title: 'Better Mortgage',
-      descr: 'Developed backend applications using primarily Typescript and Python, and built frontend features using React, Ember, & Next.js. Communicated and integrated with third party vendors, and built out data visualization dashboards. Read more for full tech stack used.',
+      descr: 'Developed backend applications using primarily Typescript and Python, and built frontend features using React, Ember, & Next.js. Communicated and integrated with third party vendors, and built relational databases using TypeORM and Nest.js. Read more for full tech stack.',
       src: 'better.jpg'
   },
   {
     link: 'mist',
     title: 'MIST - Trinity College',
-    descr: 'Digitized the MIST (diagnostic memory test for people with neurological disorders), to aid with administering remotely. Collected user data to be used in the diagnostic process. Modified program to include a children\'s version and a Spanish version as well as a short form version.',
-    src: 'trinity.jpeg'
+    descr: 'Digitized the MIST (diagnostic memory test for people with neurological disorders), to aid with administering remotely. Collected user data to be used in the diagnostic process. Modified program to include a children\'s version, a Spanish version, and a short form version.',
+    src: 'mist.png'
   },
   {
     link: 'wnyu',

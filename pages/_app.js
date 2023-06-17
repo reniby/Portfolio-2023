@@ -9,11 +9,11 @@ export default function App({ Component, pageProps }) {
 
   let title = 'Emma Waddell';
   if (currentUrl == '/' || currentUrl.includes('research')) {
-    title += ' - Research';
+    title += ' | Research';
   } else if (currentUrl.includes('work')) {
-    title += ' - Work Experience';
+    title += ' | Work Experience';
   } else {
-    title += ' - About';
+    title += ' | About';
   }
 
   return (

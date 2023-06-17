@@ -6,9 +6,9 @@ export default function About() {
     <Layout>
     <div className={styles.about}>
         <div className={styles.aboutCard} key={'Bio'}>
-            <h2>{'About Me'}</h2>
-            <p>{`Emma Waddell is a full stack software engineer who recently graduated from NYU Gallatin with a concentration in computer science, music composition, and mathematics. Their research has focused on how natural and biological processes influence algorithmic and computer music. Through their work they have leveraged biological simulations, the use of neural networks, human computer interaction, and video game development, and have received multiple research grants to study these ideas. They also have been working full time as a full stack software engineer for the past year, learning a lot about developing backend and frontend features, integrating with third party APIs, and building data dashboards.`}</p>
-            <a href={"/resume.pdf"} target="_blank" rel="noopener noreferrer">
+            <h1>{'About Me'}</h1>
+            <p>{`Emma Waddell is a full stack software engineer who recently graduated from NYU Gallatin with a concentration in computer science, music composition, and mathematics. Their research has focused on how natural and biological processes influence algorithmic and computer music. Through their work they have leveraged biological simulations, the use of neural networks, human computer interaction, and video game development, and have received multiple research grants to study these ideas. They also have been working full time as a full stack software engineer for the past year, learning a lot about developing backend and frontend features, integrating with third party APIs, and building relational databases and data dashboards.`}</p>
+            <a href={"/Emma Waddell Resume.pdf"} target="_blank" rel="noopener noreferrer">
                 <img title="Resume" className={styles.socs} src="/doc.png"/>
             </a>
             <a href={"https://github.com/reniby"} target="_blank" rel="noopener noreferrer">
