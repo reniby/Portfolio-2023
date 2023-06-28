@@ -24,7 +24,7 @@ export default function BirdRing() {
         <ul>
           <li>p5.js (Javascript)</li>
           <li>Java</li>
-          <li>Max/MSP</li>
+          <li>Max/MSP/Jitter</li>
           <li>Photoshop</li>
         </ul>
       </div>
