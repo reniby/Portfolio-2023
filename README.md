@@ -1,3 +1,3 @@
 Online portfolio portfolio for Emma Waddell
 
-Uses Next.js development framework, 
+Uses Next.js development framework
