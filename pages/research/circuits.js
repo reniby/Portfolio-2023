@@ -21,8 +21,8 @@ export default function Circuits() {
         <p>Next is the AND gate. If both inputs fire, the output fires as before. But if only one input neuron fires, the output neuron does not fire.</p>
         <img className={styles.pagePic} src="/pages/AND.png"></img>
 
-        <a href={'google.com'} key={'Essay'}>Full Research Paper</a>
-        <a href={'google.com'} key={'Essay'}>Source Code</a>
+        <a href={'https://docs.google.com/document/d/1Uda3_Y_T4JZ2Mf6SCW9WRSzgUK-1af-HycXOLS7RuuQ/edit'} key={'Paper'} target="_blank" rel="noopener noreferrer">Full Research Paper</a>
+        <a href={'https://github.com/reniby/Biological-Neural-Networks-in-MATLAB'} key={'Code'} target="_blank" rel="noopener noreferrer">Source Code</a>
 
 
         <h2>Technologies Used</h2>

@@ -183,6 +183,12 @@
   border-radius: 5px;
 }
 
+.pageGif {
+  border-radius: 5px;
+  width: 400px;
+  height: 600px;
+}
+
 .highlight {
   color: #bd1667;
 }

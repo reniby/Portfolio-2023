@@ -33,7 +33,6 @@ export default function Home() {
             <h3>{p.title}</h3>
             <p>
               {p.descr.split(" ").map((word, index) => {
-                console.log(word, word.replace(/[^\w\s]/g, ""), highlight.includes(word.replace(/[^\w\s]/g, "")));
                 return (
                   <span
                     key={index}

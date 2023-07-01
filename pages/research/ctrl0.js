@@ -11,8 +11,8 @@ export default function Ctrl0() {
         <h2>Project Description</h2>
         <p>This project included a Processing (Java) program using the concepts of conduction created by Butch Morris. The program conducted live improvisation of a trio of tenor sax, guitar, and accordion. Generated visuals included moving circles, and the density, color, and movement style of these circles directed the style and genre of the instrumentalists' improvisation.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/gfpNdYSXnks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <a href={'google.com'} key={'Essay'}>Butch Morris Info</a>   
-        <a href={'google.com'} key={'Essay'}>View Source Code</a>   
+        <a href={'https://en.wikipedia.org/wiki/Butch_Morris'} key={'Morris'} target="_blank" rel="noopener noreferrer">Butch Morris Info</a>   
+        <a href={'https://github.com/reniby/Ctrl-O'} key={'Code'} target="_blank" rel="noopener noreferrer">View Source Code</a>   
 
         <h2>Technologies Used</h2>
         <ul>

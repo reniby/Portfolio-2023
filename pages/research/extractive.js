@@ -9,9 +9,9 @@ export default function Extractive() {
         <h4>Natural Language Processing Final Research Project</h4>
 
         <h2>Project Information</h2>
-        <a href={'google.com'} key={'Essay'}>Read Full Paper</a>
-        <a href={'google.com'} key={'Essay'}>View Source Code</a>
-        <a href={'google.com'} key={'Essay'}>CRD3 Dataset</a>
+        <a href={'/pages/extractive.pdf'} key={'Paper'} target="_blank" rel="noopener noreferrer">Read Full Paper</a>
+        <a href={'https://github.com/reniby/Extractive-Summarizer'} key={'Code'} target="_blank" rel="noopener noreferrer">View Source Code</a>
+        <a href={'https://github.com/RevanthRameshkumar/CRD3'} key={'Dataset'} target="_blank" rel="noopener noreferrer">CRD3 Dataset</a>
         <p>In this paper, we describe our applications of extractive summarization techniques toward the Critical Role Dungeons and Dragons (CRD3). Critical Role is an unscripted, live-streamed show where a group of individuals play Dungeons and Dragons 5th Edition, an open-ended tabletop role-playing game. Using this dataset, collected from 398,682 episodes, we extract summaries of whole scenes into concise summaries using extractive models, where they are evaluated based on ROUGE-1 and ROUGE-L scores. In addition, we utilize an Ad-Hoc Information Retrieval System using TF-IDF weights and cosine similarity scores to retrieve information that assists Dungeon and Dragons 5th Edition world-building and narrative creation, based on a defined set of user queries.</p>
         
         <h2>Creative Generation</h2>
