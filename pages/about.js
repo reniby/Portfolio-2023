@@ -8,8 +8,8 @@ export default function About() {
         <div className={styles.aboutCard} key={'Bio'}>
             <h1>{'About Me'}</h1>
             <p>{`Emma Waddell is a full stack software engineer who graduated in 2022 from NYU Gallatin with a concentration in computer science, music composition, and mathematics.
-            They have experience working full time as a full stack software engineer, learning about developing backend and frontend features, integrating with third party APIs, and building relational databases and data dashboards.
-            They have also received research grants, and given multiple conference lectures focused on how natural and biological processes influence algorithmic and computer music. Through their work they have leveraged biological simulations, the use of neural networks, human computer interaction, and video game development.`}</p>
+            They have experience working full time as a full stack software engineer, developing backend and frontend features, integrating with third party APIs, and building relational databases and data dashboards.
+            They have also received multiple research grants, and given various conference lectures and presentations focused on how natural and biological processes influence algorithmic and computer music. Through their work they have leveraged biological simulations, the use of neural networks, human computer interaction, and video game development.`}</p>
             <a href={"/Emma Waddell Resume.pdf"} target="_blank" rel="noopener noreferrer">
                 <img title="Resume" className={styles.socs} src="/doc.png"/>
             </a>
