@@ -9,9 +9,9 @@ export default function App({ Component, pageProps }) {
 
   let title = 'Emma Waddell';
   if (currentUrl == '/' || currentUrl.includes('research')) {
-    title += ' | Research';
+    title += '';
   } else if (currentUrl.includes('work')) {
-    title += ' | Work Experience';
+    title += ' | Experience';
   } else {
     title += ' | About';
   }
