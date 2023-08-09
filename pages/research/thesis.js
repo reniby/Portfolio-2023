@@ -25,6 +25,7 @@ export default function Thesis() {
         <h2>Technologies Used</h2>
         <ul>
           <li>SuperCollider</li>
+          <li>C++</li>
           <li>Q-Learning Reinforcement Learning Algorithm</li>
         </ul>
       </div>
