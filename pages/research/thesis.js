@@ -9,7 +9,7 @@ export default function Thesis() {
         <h4>Senior Undergraudate Thesis, Received Honors</h4>
 
         <h2>Project Description</h2>
-        <p>This project uses SuperCollider, which is a real-time audio synthesis engine, to create a artificially intelligence musical collaborator. A Q-Learning system uses reinforcement learning to create more intense or less intense versions of inputted LiveCode beat patterns. It also allows for a connection between these outputted beats and input from an acoustic instrumentalist, by tracking the instrumental input's intensity and moving through a "score" of beat patterns that match that intensity.</p>
+        <p>This project uses SuperCollider, which is a real-time audio synthesis engine built on C++, to create a artificially intelligence musical collaborator. A Q-Learning system uses reinforcement learning to create more intense or less intense versions of inputted LiveCode beat patterns. It also allows for a connection between these outputted beats and input from an acoustic instrumentalist, by tracking the instrumental input's intensity and moving through a "score" of beat patterns that match that intensity.</p>
         <a href={'https://github.com/reniby/Undergraduate-Thesis'} key={'Code'} target="_blank" rel="noopener noreferrer">Source Code</a>
         <a href={'https://docs.google.com/document/d/1gJ78Fv5dCYOiwybwLy9JsN0oJ9Za9XyFjcMEeG08S30'} key={'Paper'} target="_blank" rel="noopener noreferrer">Research Paper</a>
 
