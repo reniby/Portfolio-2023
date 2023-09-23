@@ -12,7 +12,7 @@ export default function TugOfWords() {
         <a href={'https://editor.p5js.org/Reniby/full/uFZVyf7DW'} key={'Play'} target="_blank" rel="noopener noreferrer">Play Here!</a>
 
         <p>This was just a fun project using p5.js so that I could play the Tug of Words gameshow from home with my friends. There are two modes. Versus is like the original game, where two users attempt to guess the word correctly in order to pull the points flag to their side of the screen. Users can choose how long each team has to guess and how many points are required to win. I also added a timed version where a single user can try to guess 31 words as quickly as possible.
-        (In the image below, quid would become quid, there is always only a single letter changed)</p>
+        (In the image below, quid would become quip, there is always only a single letter changed)</p>
         <img className={styles.pagePic} src="/pages/tow.png"></img>
 
         <h2>Database creation</h2>
