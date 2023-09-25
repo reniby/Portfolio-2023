@@ -1,5 +1,6 @@
 import Navbar from './navbar';
 import styles from '../styles/Home.module.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Layout({ children }) {
   return (
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
         <main>
           <Navbar prefix={''}/>
           {children}
+          <Analytics />
         </main>
     </div>
   )
