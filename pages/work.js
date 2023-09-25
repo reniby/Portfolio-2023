@@ -4,10 +4,10 @@ import styles from '../styles/Home.module.css';
 const highlight = ['Ruby on Rails', 'p5js', 'Typescript', 'Python', 'React', 'Ember', 'Nextjs', 'Nestjs', 'TypeORM'];
 const work = [
   {
-      link: 'https://stackshare.io/better/better',
-      title: 'Better Mortgage',
-      descr: 'Developed backend applications using primarily Typescript and Python, and built frontend features using React, Ember, & Next.js. Communicated and integrated with third party vendors, and built relational databases using TypeORM and Nest.js. Click here for full tech stack.',
-      src: 'better.jpg'
+    link: 'https://stackshare.io/better/better',
+    title: 'Better Mortgage',
+    descr: 'Developed backend applications using primarily Typescript and Python, and built frontend features using React, Ember, & Next.js. Communicated and integrated with third party vendors, and built relational databases using TypeORM and Nest.js. Click here for full tech stack.',
+    src: 'better.jpg'
   },
   {
     link: 'https://www.parinc.com/Products/Pkey/233',

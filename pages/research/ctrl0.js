@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 
 export default function Ctrl0() {
   return (
-    <PageLayout count={4} prev={'birdring'} next={'extractive'}>
+    <PageLayout count={5} prev={'extractive'} next={'circuits'}>
       <div className={styles.project}>
         <h1>CTRL-0</h1>
         <h4>Performance at Shapeshifter Lab (Brooklyn, NY)</h4>

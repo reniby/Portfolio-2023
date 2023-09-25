@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 
 export default function Extractive() {
   return (
-    <PageLayout count={5} prev={'ctrl0'} next={'circuits'}>
+    <PageLayout count={4} prev={'birdring'} next={'ctrl0'}>
       <div className={styles.project}>
         <h1>Extractive Summarization</h1>
         <h4>Natural Language Processing Final Research Project</h4>

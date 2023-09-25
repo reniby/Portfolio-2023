@@ -20,7 +20,13 @@ const projects = [
     title: 'Bird Ring',
     descr: 'Composed and recorded an album and interactive website in p5.js, consisting of four songs based on ornithological data.',
     src: 'bird.jpg'
-},
+  },
+  {
+    link: 'extractive',
+    title: 'Extractive Summarization',
+    descr: 'Built an extractive summarizer using Python and NLTK, evaluated on ROGUE-1 and ROUGE-L scores. Used the Critical Role Dungeons and Dragons Dataset (CRD3).',
+    src: 'es.jpeg'
+  },
   {
       link: 'ctrl0',
       title: 'Ctrl 0',
@@ -28,15 +34,9 @@ const projects = [
       src: 'c0.png'
   },
   {
-    link: 'extractive',
-    title: 'Extractive Summarization',
-    descr: 'Built an extractive summarizer using Python and NLTK, evaluated on ROGUE-1 and ROUGE-L scores. Used the Critical Role Dungeons and Dragons Dataset (CRD3), colleced from 398,682 turns.',
-    src: 'es.jpeg'
-  },
-  {
     link: 'circuits',
     title: 'Neurological Circuit Building',
-    descr: 'Used Hodgkin-Huxley mathematical model of a system on neurons and synapses in MATLAB. Simulated logical gates (AND, OR, NOT, XOR) using the modeled current through the neurons.',
+    descr: 'Used Hodgkin-Huxley mathematical model to simulate neurons and synapses in MATLAB. Built logical gates (AND, OR, NOT, XOR) using simulated neural networks.',
     src: 'nc.jpeg'
   },
   {

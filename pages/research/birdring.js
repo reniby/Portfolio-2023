@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 
 export default function BirdRing() {
   return (
-    <PageLayout count={3} prev={'correst'} next={'ctrl0'}>
+    <PageLayout count={3} prev={'correst'} next={'extractive'}>
       <div className={styles.project}>
         <h1>Bird Ring</h1>
         <h4>Funded by Gallatin Undergraduate Research Fund</h4>
