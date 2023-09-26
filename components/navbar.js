@@ -27,7 +27,7 @@ export default function Home({ prefix }) {
             <a href={'/'} className={classes[0]} key={'Projects'}>
                 <p>Research</p>
             </a>
-            <a href={`${prefix}work`} className={classes[1]} key={'About'}>
+            <a href={`${prefix}work`} className={classes[1]} key={'Work'}>
                 <p>Work Experience</p>
             </a>
             <a href={`${prefix}about`} className={classes[2]} key={'About'}>
