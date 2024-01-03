@@ -51,12 +51,6 @@ const projects = [
       descr: 'Selected as a finalist for this jazz competition for their tenor sax improvisation, and received the honor of performing in Bushnell Park in Hartford.',
       src: 'hjs.jpeg'
   },
-  {
-    link: 'tugofwords',
-    title: 'Tug of Words',
-    descr: 'Adapted the Tug of Words game show into a web game built in p5.js. Built two modes, endless and versus, where users are given a word clues and must guess the correct letter change.',
-    src: 'tow.png'
-  },
 ];
 
 export default function Home() {

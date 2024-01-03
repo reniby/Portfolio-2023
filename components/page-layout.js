@@ -3,13 +3,8 @@ import Footer from './footer';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function PageLayout({ children, count, prev, next, section }) {
-  let copy = '';
-  if (section == 'work') {
-    copy = `Work Experience:   ${count} / 3`;
-  } else {
-    copy = `Research:   ${count} / 9`;
-  }
+export default function PageLayout({ children, count, prev, next }) {
+  let copy = `Research:   ${count} / 8`;
   return (
     <div className={styles.container}>
         <main>

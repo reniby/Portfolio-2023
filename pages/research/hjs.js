@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 
 export default function HJS() {
   return (
-    <PageLayout count={8} prev={'writing'} next={'tugofwords'}>
+    <PageLayout count={8} prev={'writing'} next={''}>
       <div className={styles.project}>
         <h1>Hartford Jazz Society Emerging Artist Competition</h1>
         <h4>and Performance at Bushnell Park</h4>
