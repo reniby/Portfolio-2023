@@ -45,6 +45,12 @@ footer {
 
 li {
   line-height: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
 }
 
 h2 {

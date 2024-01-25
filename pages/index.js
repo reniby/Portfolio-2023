@@ -61,6 +61,7 @@ export default function Home() {
           <a href={'research/'+p.link} className={styles.card} key={p.title}>
           <img className={styles.pic} src={p.src} alt={p.title} />
           <h3>{p.title}</h3>
+          <h4>{p.year}</h4>
           <p>
             {p.descr.split(" ").map((word, index) => {
               return (
